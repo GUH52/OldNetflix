@@ -1,0 +1,194 @@
+html { /*full page background styles*/
+	background-color: #000000;
+   	padding: 0;
+	height: 100%;
+	width: 1000px;
+	background-image: url("assets/images/logo.jpg");
+    background-repeat: repeat;
+	margin: auto;
+}
+/*title styles*/
+header{
+	margin: 10;
+	padding: 0;
+	padding-left: 20px;
+	color: #ffb85b;
+}
+
+/*text styling*/
+h1{
+	margin:15;
+	font-size:26px;
+}
+
+h2{
+	margin:-5;
+	font-size:20px;
+}
+
+body h1{
+	margin-left:-15px;
+	padding-left:0;
+	padding-left:10px;
+	font-size:26px;
+}
+
+body p{
+	font-size:16px;
+	font-weight: normal;
+	padding:5px;
+}
+
+/*links*/
+a {
+	color: #7fffc3;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #e5cf7e;
+}
+
+a:hover {
+    
+}
+
+a:active {
+	color: purple;
+}
+
+/*navigation menu styles*/
+nav{
+	margin: 0;
+	padding: 0;
+	line-height: 3em;
+	border-top: 2px solid #930000;
+	border-bottom: 2px solid #930000;
+	background-color: #0e0187;
+	position: -webkit-sticky;
+	position: sticky;
+}
+nav ul{
+	list-style-type: none;
+	display: inline
+}
+
+nav li{
+	display: inline;
+	margin-left: 10px;
+	padding:16px;
+	background-color: #ff0000;
+	border: 1px solid black;
+}
+
+nav li:hover {
+	background-color: #b50101;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:visited {
+    color: #e5cf7e;
+}
+
+nav a:hover {
+    
+}
+
+nav a:active {
+	color: purple;
+}
+
+/*image styles(at the side and in line with text respectivly*/
+img {
+    border-radius: 20%;
+	margin: 20px;
+	float: right;
+}
+
+p img {
+	border-radius: 15%;
+	margin: 0px;
+	float: none;
+}
+
+aside img {
+	border-radius:0px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	float: none;
+}
+
+body{
+	position: relative;
+	font-family: arial;
+	color: white; 
+	font-size: 16px;
+	margin: 0;
+	width: 100%
+}
+
+section{
+	position: relative;
+	padding: 35px;
+	font-size: 16px;
+	width: 100%;
+	float: left;
+	margin: 0px;
+	background-color: #3d3c3c;
+	box-sizing: border-box;
+}
+
+article {
+	width: 100%;
+}
+
+aside {
+	text-align: center;
+	position: relative;
+	float:left;
+	padding-left: 20px;
+	border-left: 2px solid black;
+	height: auto;
+	margin: 0px;
+}
+
+footer{
+	border-top: 2px solid #930000;
+	position: static;
+	text-align: center;
+	width: 100%;
+	margin-top: 0px;
+	float: left;
+	background-color: #0e0187;
+	width: 100%;
+	padding: 10px;
+	height: auto%;
+	box-sizing: border-box;
+	left: 0;
+	bottom: 0;
+}	
+
+/*lists and tables styles*/
+ul{
+	margin:0;
+	padding:0;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+	text-align: center;
+	float: clear;
+}
+
+aside td {
+	border:3px solid black;
+}
