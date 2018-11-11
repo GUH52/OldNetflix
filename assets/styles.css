@@ -2,7 +2,6 @@ html { /*full page background styles*/
 	background-color: #000000;
    	padding: 0;
 	height: 100%;
-	width: 1000px;
 	background-image: url("assets/images/logo.jpg");
     	background-repeat: repeat;
 	margin: auto;
@@ -66,27 +65,13 @@ img {
 	float: right;
 }
 
-p img {
-	border-radius: 15%;
-	margin: 0px;
-	float: none;
-}
-
-aside img {
-	border-radius:0px;
-	margin: 0px;
-	margin-top: 10px;
-	margin-bottom: 5px;
-	float: none;
-}
-
 body{
 	position: relative;
 	font-family: arial;
 	color: white; 
 	font-size: 16px;
-	margin: 0;
-	width: 100%
+	width: 1000px;
+	margin: auto;
 }
 
 section{
@@ -109,7 +94,7 @@ footer{
 	position: static;
 	text-align: center;
 	width: 100%;
-	margin-top: 0px;
+	margin-top: 10px;
 	float: left;
 	background-color: #ff0000;
 	width: 100%;
@@ -118,24 +103,24 @@ footer{
 	box-sizing: border-box;
 	left: 0;
 	bottom: 0;
-}	
+} 
 
-/*lists and tables styles*/
-ul{
-	margin:0;
-	padding:0;
+#asideLeft{
+	width: 200px;
+	float: left;
+	position: fixed;
+	top: 100px;
+	left: 50px;
+	color: #000000;
+	background-color: #ffffff;
 }
 
-table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-td {
-	text-align: center;
-	float: clear;
-}
-
-aside td {
-	border:3px solid black;
+#asideRight{
+	width: 200px;
+	float: right;
+	position: fixed;
+	top: 100px;
+	right: 50px;
+	color: #000000;
+	background-color: #ffffff;
 }
