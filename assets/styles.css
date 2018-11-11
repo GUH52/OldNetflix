@@ -66,20 +66,6 @@ img {
 	float: right;
 }
 
-p img {
-	border-radius: 15%;
-	margin: 0px;
-	float: none;
-}
-
-aside img {
-	border-radius:0px;
-	margin: 0px;
-	margin-top: 10px;
-	margin-bottom: 5px;
-	float: none;
-}
-
 body{
 	position: relative;
 	font-family: arial;
@@ -119,23 +105,3 @@ footer{
 	left: 0;
 	bottom: 0;
 }	
-
-/*lists and tables styles*/
-ul{
-	margin:0;
-	padding:0;
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-td {
-	text-align: center;
-	float: clear;
-}
-
-aside td {
-	border:3px solid black;
-}
