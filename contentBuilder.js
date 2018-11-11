@@ -4,7 +4,7 @@ $(document).ready(function(){
         $("body").append(data);
     });
     $("body").append("<br><br>");
-    $.get("footer.html", function(data){
-        $("body").append(data);  
+    $.get("footer.html", function(data2){
+        $("body").append(data2);  
     });
 });
