@@ -108,11 +108,19 @@ footer{
 #asideLeft{
 	width: 200px;
 	float: left;
+	position: fixed;
+	top: 100px;
+	left: 50px;
+	color: #000000;
 	background-color: #ffffff;
 }
 
 #asideRight{
 	width: 200px;
 	float: right;
+	position: fixed;
+	top: 100px;
+	right: 50px;
+	color: #000000;
 	background-color: #ffffff;
 }
