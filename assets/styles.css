@@ -70,7 +70,7 @@ body{
 	font-family: arial;
 	color: white; 
 	font-size: 16px;
-	width: 1000px;
+	width: 50%;
 	margin: auto;
 }
 
@@ -105,7 +105,7 @@ footer{
 } 
 
 #asideLeft{
-	width: 200px;
+	width: 20%;
 	float: left;
 	position: fixed;
 	top: 100px;
@@ -115,7 +115,7 @@ footer{
 }
 
 #asideRight{
-	width: 200px;
+	width: 20%;
 	float: right;
 	position: fixed;
 	top: 100px;
