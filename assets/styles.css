@@ -107,6 +107,12 @@ footer{
 	background-color: #ffffff;
 }
 
+
+#asideLeft img{
+	width: 18%;
+	height: auto;
+}
+
 #asideRight{
 	width: 20%;
 	float: right;
