@@ -1,6 +1,5 @@
 html { /*full page background styles*/
 	background-color: #000000;
-	//margin: 0;
    	padding: 0;
 	height: 100%;
 	width: 1000px;
@@ -24,7 +23,6 @@ h1{
 
 h2{
 	margin:-5;
-	//padding:0;
 	font-size:20px;
 }
 
@@ -46,8 +44,6 @@ nav{
 	margin: 0;
 	padding: 0;
 	line-height: 3em;
-	//border-top: 2px solid #930000;
-	//border-bottom: 2px solid #930000;
 	background-color: #ff0000;
 	position: -webkit-sticky;
 	position: sticky;
@@ -61,10 +57,6 @@ nav li{
 	display: inline;
 	margin-left: 10px;
 	padding:16px;
-	//background-color: #ff0000;
-	//border: 1px solid black;
-	//border-top: 2px solid #930000;
-	//border-bottom: 2px solid #930000;
 }
 
 /*image styles(at the side and in line with text respectivly*/
@@ -91,7 +83,6 @@ aside img {
 body{
 	position: relative;
 	font-family: arial;
-	//height: 91.5%;
 	color: white; 
 	font-size: 16px;
 	margin: 0;
@@ -113,23 +104,12 @@ article {
 	width: 100%;
 }
 
-aside {
-	text-align: center;
-	position: relative;
-	float:left;
-	padding-left: 20px;
-	border-left: 2px solid black;
-	height: auto;
-	margin: 0px;
-}
-
 footer{
 	//border-top: 2px solid #930000;
 	position: static;
 	text-align: center;
 	width: 100%;
 	margin-top: 0px;
-	//margin-top: 10px; 
 	float: left;
 	background-color: #ff0000;
 	width: 100%;
