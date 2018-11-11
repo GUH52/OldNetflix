@@ -104,3 +104,15 @@ footer{
 	left: 0;
 	bottom: 0;
 } 
+
+#asideLeft{
+	width: 200px;
+	float: left;
+	background-color: #ffffff;
+}
+
+#asideRight{
+	width: 200px;
+	float: right;
+	background-color: #ffffff;
+}
