@@ -2,7 +2,6 @@ html { /*full page background styles*/
 	background-color: #000000;
    	padding: 0;
 	height: 100%;
-	width: 1000px;
 	background-image: url("assets/images/logo.jpg");
     	background-repeat: repeat;
 	margin: auto;
@@ -71,8 +70,8 @@ body{
 	font-family: arial;
 	color: white; 
 	font-size: 16px;
-	margin: 0;
-	width: 100%
+	width: 1000px;
+	margin: auto;
 }
 
 section{
@@ -95,7 +94,7 @@ footer{
 	position: static;
 	text-align: center;
 	width: 100%;
-	margin-top: 0px;
+	margin-top: 10px;
 	float: left;
 	background-color: #ff0000;
 	width: 100%;
@@ -104,4 +103,4 @@ footer{
 	box-sizing: border-box;
 	left: 0;
 	bottom: 0;
-}	
+} 
