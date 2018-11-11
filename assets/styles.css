@@ -109,7 +109,12 @@ footer{
 
 
 #asideLeft img{
-	width: 18%;
+	width: 90%;
+	height: auto;
+}
+
+#asideRight img{
+	width: 90%;
 	height: auto;
 }
 
