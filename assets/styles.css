@@ -58,13 +58,6 @@ nav li{
 	padding:16px;
 }
 
-/*image styles(at the side and in line with text respectivly*/
-img {
-    border-radius: 20%;
-	margin: 20px;
-	float: right;
-}
-
 body{
 	position: relative;
 	font-family: arial;
