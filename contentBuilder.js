@@ -1,9 +1,7 @@
 
 $(document).ready(function(){
-    $.get("navigation.html", function(data){
-        $(this).append(data);
-    });
-    $.get("footer.html", function(data){
-        $(this).append(data);  
-    });
+    $("body").load("navigation.html");
+    $("body").append("<h2>Featured Content</h2>")
+    $("body").load("footer.html");
+
 });
