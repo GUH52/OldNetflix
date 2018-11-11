@@ -1,12 +1,15 @@
 function drawVideo(vid){
-    $("#vids").append(vid);
+    
 }
 function addVideos(){
     $.get("clips.xml", function(xml){
         var xmlDoc = $.parseXML(xml);
         $xml = $(xmlDoc);
         $video = $xml.find("show");
-        drawVideo($video);
+        $video.each(function(){
+            $("#vids").append("<p>"+"<h3>"+$(this).find("title").text()+"</h3>"+"</p>");
+        });
+        
     });
     
 }
