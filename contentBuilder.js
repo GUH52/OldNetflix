@@ -1,18 +1,3 @@
-function drawVideo(vid){
-    
-}
-function addVideos(){
-    $.get("clips.xml", function(xml){
-        var xmlDoc = $.parseXML(xml);
-        $xml = $(xmlDoc);
-        $video = $xml.find("show");
-        $video.each(function(){
-            $("#vids").append("<p>"+"<h3>"+$(this).find("title").text()+"</h3>"+"</p>");
-        });
-        
-    });
-    
-}
 
 $(document).ready(function(){
     $.get("navigation.html", function(data){
@@ -25,6 +10,12 @@ $(document).ready(function(){
             });
         });
     });
-    addVideos();
-    
+    $.get("clips.xml", function(xml){
+        var xmlDoc = $.parseXML(xml);
+        $xml = $(xmlDoc);
+        $video = $xml.find("show");
+        $video.each(function(){
+            $("#vids").append("<p>"+"<h3>"+$(this).find("title").text()+"</h3>"+"</p>");
+        });
+    });
 });
