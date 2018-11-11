@@ -135,3 +135,9 @@ footer{
 	color: #000000;
 	background-color: #ffffff;
 }
+
+video {
+    border-style: solid;
+    border-color: #ff0000;
+    padding: 4px;
+}
