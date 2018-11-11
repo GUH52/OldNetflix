@@ -2,7 +2,7 @@ html { /*full page background styles*/
 	background-color: #000000;
    	padding: 0;
 	height: 100%;
-	background-image: url("assets/images/logo.jpg");
+	background-image: url("images/logo.jpg");
     	background-repeat: repeat;
 	margin: auto;
 }
