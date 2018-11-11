@@ -39,24 +39,6 @@ body p{
 	padding:5px;
 }
 
-/*links*/
-a {
-	color: #7fffc3;
-	text-decoration: none;
-}
-
-a:visited {
-    color: #e5cf7e;
-}
-
-a:hover {
-    
-}
-
-a:active {
-	color: purple;
-}
-
 /*navigation menu styles*/
 nav{
 	margin: 0;
@@ -83,23 +65,6 @@ nav li{
 
 nav li:hover {
 	background-color: #b50101;
-}
-
-nav a {
-	color: white;
-	text-decoration: none;
-}
-
-nav a:visited {
-    color: #e5cf7e;
-}
-
-nav a:hover {
-    
-}
-
-nav a:active {
-	color: purple;
 }
 
 /*image styles(at the side and in line with text respectivly*/
