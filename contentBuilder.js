@@ -20,7 +20,7 @@ $(document).ready(function(){
         $("body").append("<section id=\"vids\"></section>");
         $.get("footer.html", function(data2){
             $("body").append(data2);
-            $.get("ads.html", function(data3){
+            $.get("definetlynotadds.html", function(data3){
                 $("body").append(data3);
             });
         });
