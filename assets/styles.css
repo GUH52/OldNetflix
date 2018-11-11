@@ -114,6 +114,7 @@ footer{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center; 
+	display: block;
 }
 
 #asideRight img{
@@ -122,6 +123,7 @@ footer{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center; 
+	display: block;
 }
 
 #asideRight{
