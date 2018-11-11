@@ -112,12 +112,14 @@ footer{
 	width: 90%;
 	height: auto;
 	margin: auto;
+	text-align: center; 
 }
 
 #asideRight img{
 	width: 90%;
 	height: auto;
 	margin: auto;
+	text-align: center; 
 }
 
 #asideRight{
